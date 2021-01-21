@@ -16,7 +16,11 @@ class MainActivity : AppCompatActivity() {
     }
 
     fun createGreetingCard(view: View) {
+
+        val name= nameInput.editableText.toString()
+
         val intent = Intent(this, CardCreation::class.java)
+        intent.putExtra( CardCreation.NAME_EXTRA, name)
         startActivity(intent)
 
     }
