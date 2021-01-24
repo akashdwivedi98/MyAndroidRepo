@@ -19,6 +19,6 @@ class CardCreation : AppCompatActivity() {
         setContentView(R.layout.activity_card_creation)
 
         val name = intent.getStringArrayExtra(NAME_EXTRA)
-        birthdayGreetings.tooltipText = "Happy Birthday $name"
+         CardCreation.text = "Happy Birthday\n$name!"
     }
 }
