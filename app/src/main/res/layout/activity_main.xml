@@ -39,7 +39,7 @@
         android:layout_marginTop="60dp"
         android:text="@string/create_greeting_card"
         android:textAllCaps="false"
-        android:padding="20dp"
+        android:padding="25dp"
         android:onClick="createGreetingCard"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
