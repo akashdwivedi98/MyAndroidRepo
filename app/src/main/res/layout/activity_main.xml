@@ -14,7 +14,7 @@
         android:layout_marginTop="60dp"
         android:text="@string/enter_the_name_of_the_person"
         android:textSize="20sp"
-        android:textStyle="bold"
+        android:textStyle="italic"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
@@ -27,6 +27,7 @@
         android:ems="10"
         android:inputType="textPersonName"
         android:hint="@string/akash"
+        android:textStyle="italic"
         android:textAlignment="center"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -41,6 +42,7 @@
         android:textAllCaps="false"
         android:padding="25dp"
         android:onClick="createGreetingCard"
+        android:textStyle="italic"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/nameInput" />
